@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.log
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# SQLite (optional, if using SQLite for dev)
+*.sqlite3
+*.db
+
+# FastAPI auto-generated OpenAPI docs cache (if any)
+openapi.json
+
+# Uvicorn reload file
+reload.db
